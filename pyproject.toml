@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mall-backend"
+version = "0.1.0"
+description = ""
+authors = ["rapport87 <rapport87@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mall_backend"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+django = "^4.2.7"
+djangorestframework = "^3.14.0"
+django-cors-headers = "^4.3.1"
+django-mptt = "^0.15.0"
+requests = "^2.31.0"
+mysqlclient = "^2.2.1"
+tzdata = "^2023.4"
+gunicorn = "^21.2.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
