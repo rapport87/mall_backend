@@ -1,4 +1,4 @@
-# 🤖Mall BackEnd
+# 🏪Mall BackEnd
 Django로 만든 쇼핑몰 프로젝트 입니다.
 - Service URL : https://mall.learninglab.co.kr:60000/ (가정에서 소규모 서버로 가동중이라 많이 느립니다)
 
